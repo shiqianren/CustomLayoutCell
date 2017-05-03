@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8417BEE31EB8711A00A7240A /* CaluatetableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417BEE21EB8711A00A7240A /* CaluatetableController.m */; };
+		8417BEE71EB8728800A7240A /* CalculateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417BEE51EB8728800A7240A /* CalculateCell.m */; };
+		8417BEE81EB8728800A7240A /* CalculateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8417BEE61EB8728800A7240A /* CalculateCell.xib */; };
+		8417BEEB1EB8801E00A7240A /* CalculateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417BEEA1EB8801E00A7240A /* CalculateModel.m */; };
+		8417BEED1EB880F900A7240A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8417BEEC1EB880F900A7240A /* data.json */; };
+		8417BEF11EB899BF00A7240A /* CellHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417BEF01EB899BF00A7240A /* CellHeightCache.m */; };
+		8437A4661EB85F2600A8D012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437A4651EB85F2600A8D012 /* main.m */; };
+		8437A4691EB85F2600A8D012 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437A4681EB85F2600A8D012 /* AppDelegate.m */; };
+		8437A46C1EB85F2600A8D012 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437A46B1EB85F2600A8D012 /* ViewController.m */; };
+		8437A46F1EB85F2600A8D012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8437A46D1EB85F2600A8D012 /* Main.storyboard */; };
+		8437A4711EB85F2600A8D012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8437A4701EB85F2600A8D012 /* Assets.xcassets */; };
+		8437A4741EB85F2600A8D012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8437A4721EB85F2600A8D012 /* LaunchScreen.storyboard */; };
+		8437A47F1EB85F2600A8D012 /* AnimationCellHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437A47E1EB85F2600A8D012 /* AnimationCellHeightTests.m */; };
+		8437A48A1EB85F2600A8D012 /* AnimationCellHeightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437A4891EB85F2600A8D012 /* AnimationCellHeightUITests.m */; };
+		8437A4A21EB860D400A8D012 /* Cell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437A4A01EB860D400A8D012 /* Cell1.m */; };
+		8437A4A31EB860D400A8D012 /* Cell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8437A4A11EB860D400A8D012 /* Cell1.xib */; };
+		8437A4A51EB861F300A8D012 /* iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8437A4A41EB861F300A8D012 /* iphone.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8437A47B1EB85F2600A8D012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8437A4591EB85F2600A8D012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8437A4601EB85F2600A8D012;
+			remoteInfo = AnimationCellHeight;
+		};
+		8437A4861EB85F2600A8D012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8437A4591EB85F2600A8D012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8437A4601EB85F2600A8D012;
+			remoteInfo = AnimationCellHeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8417BEE11EB8711A00A7240A /* CaluatetableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaluatetableController.h; sourceTree = "<group>"; };
+		8417BEE21EB8711A00A7240A /* CaluatetableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaluatetableController.m; sourceTree = "<group>"; };
+		8417BEE41EB8728800A7240A /* CalculateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateCell.h; sourceTree = "<group>"; };
+		8417BEE51EB8728800A7240A /* CalculateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateCell.m; sourceTree = "<group>"; };
+		8417BEE61EB8728800A7240A /* CalculateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculateCell.xib; sourceTree = "<group>"; };
+		8417BEE91EB8801E00A7240A /* CalculateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateModel.h; sourceTree = "<group>"; };
+		8417BEEA1EB8801E00A7240A /* CalculateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateModel.m; sourceTree = "<group>"; };
+		8417BEEC1EB880F900A7240A /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		8417BEEF1EB899BF00A7240A /* CellHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellHeightCache.h; sourceTree = "<group>"; };
+		8417BEF01EB899BF00A7240A /* CellHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellHeightCache.m; sourceTree = "<group>"; };
+		8437A4611EB85F2600A8D012 /* AnimationCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8437A4651EB85F2600A8D012 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8437A4671EB85F2600A8D012 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8437A4681EB85F2600A8D012 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8437A46A1EB85F2600A8D012 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		8437A46B1EB85F2600A8D012 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		8437A46E1EB85F2600A8D012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8437A4701EB85F2600A8D012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8437A4731EB85F2600A8D012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8437A4751EB85F2600A8D012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8437A47A1EB85F2600A8D012 /* AnimationCellHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationCellHeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8437A47E1EB85F2600A8D012 /* AnimationCellHeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationCellHeightTests.m; sourceTree = "<group>"; };
+		8437A4801EB85F2600A8D012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8437A4851EB85F2600A8D012 /* AnimationCellHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationCellHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8437A4891EB85F2600A8D012 /* AnimationCellHeightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationCellHeightUITests.m; sourceTree = "<group>"; };
+		8437A48B1EB85F2600A8D012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8437A49F1EB860D400A8D012 /* Cell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell1.h; sourceTree = "<group>"; };
+		8437A4A01EB860D400A8D012 /* Cell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell1.m; sourceTree = "<group>"; };
+		8437A4A11EB860D400A8D012 /* Cell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell1.xib; sourceTree = "<group>"; };
+		8437A4A41EB861F300A8D012 /* iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8437A45E1EB85F2600A8D012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8437A4771EB85F2600A8D012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8437A4821EB85F2600A8D012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8417BEE01EB870CC00A7240A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8437A46A1EB85F2600A8D012 /* ViewController.h */,
+				8437A46B1EB85F2600A8D012 /* ViewController.m */,
+				8417BEE11EB8711A00A7240A /* CaluatetableController.h */,
+				8417BEE21EB8711A00A7240A /* CaluatetableController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8417BEEE1EB899A700A7240A /* LayOut */ = {
+			isa = PBXGroup;
+			children = (
+				8417BEEF1EB899BF00A7240A /* CellHeightCache.h */,
+				8417BEF01EB899BF00A7240A /* CellHeightCache.m */,
+			);
+			path = LayOut;
+			sourceTree = "<group>";
+		};
+		8437A4581EB85F2600A8D012 = {
+			isa = PBXGroup;
+			children = (
+				8437A4631EB85F2600A8D012 /* AnimationCellHeight */,
+				8437A4971EB85FE100A8D012 /* emplate */,
+				8437A47D1EB85F2600A8D012 /* AnimationCellHeightTests */,
+				8437A4881EB85F2600A8D012 /* AnimationCellHeightUITests */,
+				8437A4621EB85F2600A8D012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8437A4621EB85F2600A8D012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8437A4611EB85F2600A8D012 /* AnimationCellHeight.app */,
+				8437A47A1EB85F2600A8D012 /* AnimationCellHeightTests.xctest */,
+				8437A4851EB85F2600A8D012 /* AnimationCellHeightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8437A4631EB85F2600A8D012 /* AnimationCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				8417BEE01EB870CC00A7240A /* Controller */,
+				8437A4A41EB861F300A8D012 /* iphone.jpg */,
+				8437A49E1EB860D400A8D012 /* ctive-C */,
+				8437A4671EB85F2600A8D012 /* AppDelegate.h */,
+				8437A4681EB85F2600A8D012 /* AppDelegate.m */,
+				8437A46D1EB85F2600A8D012 /* Main.storyboard */,
+				8437A4701EB85F2600A8D012 /* Assets.xcassets */,
+				8437A4721EB85F2600A8D012 /* LaunchScreen.storyboard */,
+				8437A4751EB85F2600A8D012 /* Info.plist */,
+				8437A4641EB85F2600A8D012 /* Supporting Files */,
+			);
+			path = AnimationCellHeight;
+			sourceTree = "<group>";
+		};
+		8437A4641EB85F2600A8D012 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8417BEEC1EB880F900A7240A /* data.json */,
+				8437A4651EB85F2600A8D012 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8437A47D1EB85F2600A8D012 /* AnimationCellHeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				8437A47E1EB85F2600A8D012 /* AnimationCellHeightTests.m */,
+				8437A4801EB85F2600A8D012 /* Info.plist */,
+			);
+			path = AnimationCellHeightTests;
+			sourceTree = "<group>";
+		};
+		8437A4881EB85F2600A8D012 /* AnimationCellHeightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8437A4891EB85F2600A8D012 /* AnimationCellHeightUITests.m */,
+				8437A48B1EB85F2600A8D012 /* Info.plist */,
+			);
+			path = AnimationCellHeightUITests;
+			sourceTree = "<group>";
+		};
+		8437A4971EB85FE100A8D012 /* emplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = emplate;
+			path = AnimationCellHeight/emplate;
+			sourceTree = "<group>";
+		};
+		8437A49E1EB860D400A8D012 /* ctive-C */ = {
+			isa = PBXGroup;
+			children = (
+				8417BEEE1EB899A700A7240A /* LayOut */,
+				8437A49F1EB860D400A8D012 /* Cell1.h */,
+				8437A4A01EB860D400A8D012 /* Cell1.m */,
+				8437A4A11EB860D400A8D012 /* Cell1.xib */,
+				8417BEE41EB8728800A7240A /* CalculateCell.h */,
+				8417BEE51EB8728800A7240A /* CalculateCell.m */,
+				8417BEE61EB8728800A7240A /* CalculateCell.xib */,
+				8417BEE91EB8801E00A7240A /* CalculateModel.h */,
+				8417BEEA1EB8801E00A7240A /* CalculateModel.m */,
+			);
+			path = "ctive-C";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8437A4601EB85F2600A8D012 /* AnimationCellHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8437A48E1EB85F2600A8D012 /* Build configuration list for PBXNativeTarget "AnimationCellHeight" */;
+			buildPhases = (
+				8437A45D1EB85F2600A8D012 /* Sources */,
+				8437A45E1EB85F2600A8D012 /* Frameworks */,
+				8437A45F1EB85F2600A8D012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationCellHeight;
+			productName = AnimationCellHeight;
+			productReference = 8437A4611EB85F2600A8D012 /* AnimationCellHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8437A4791EB85F2600A8D012 /* AnimationCellHeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8437A4911EB85F2600A8D012 /* Build configuration list for PBXNativeTarget "AnimationCellHeightTests" */;
+			buildPhases = (
+				8437A4761EB85F2600A8D012 /* Sources */,
+				8437A4771EB85F2600A8D012 /* Frameworks */,
+				8437A4781EB85F2600A8D012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8437A47C1EB85F2600A8D012 /* PBXTargetDependency */,
+			);
+			name = AnimationCellHeightTests;
+			productName = AnimationCellHeightTests;
+			productReference = 8437A47A1EB85F2600A8D012 /* AnimationCellHeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8437A4841EB85F2600A8D012 /* AnimationCellHeightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8437A4941EB85F2600A8D012 /* Build configuration list for PBXNativeTarget "AnimationCellHeightUITests" */;
+			buildPhases = (
+				8437A4811EB85F2600A8D012 /* Sources */,
+				8437A4821EB85F2600A8D012 /* Frameworks */,
+				8437A4831EB85F2600A8D012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8437A4871EB85F2600A8D012 /* PBXTargetDependency */,
+			);
+			name = AnimationCellHeightUITests;
+			productName = AnimationCellHeightUITests;
+			productReference = 8437A4851EB85F2600A8D012 /* AnimationCellHeightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8437A4591EB85F2600A8D012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shiqianren;
+				TargetAttributes = {
+					8437A4601EB85F2600A8D012 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Z632QU8CDY;
+						ProvisioningStyle = Automatic;
+					};
+					8437A4791EB85F2600A8D012 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Z632QU8CDY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8437A4601EB85F2600A8D012;
+					};
+					8437A4841EB85F2600A8D012 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Z632QU8CDY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8437A4601EB85F2600A8D012;
+					};
+				};
+			};
+			buildConfigurationList = 8437A45C1EB85F2600A8D012 /* Build configuration list for PBXProject "AnimationCellHeight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8437A4581EB85F2600A8D012;
+			productRefGroup = 8437A4621EB85F2600A8D012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8437A4601EB85F2600A8D012 /* AnimationCellHeight */,
+				8437A4791EB85F2600A8D012 /* AnimationCellHeightTests */,
+				8437A4841EB85F2600A8D012 /* AnimationCellHeightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8437A45F1EB85F2600A8D012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8437A4741EB85F2600A8D012 /* LaunchScreen.storyboard in Resources */,
+				8417BEED1EB880F900A7240A /* data.json in Resources */,
+				8437A4711EB85F2600A8D012 /* Assets.xcassets in Resources */,
+				8417BEE81EB8728800A7240A /* CalculateCell.xib in Resources */,
+				8437A4A51EB861F300A8D012 /* iphone.jpg in Resources */,
+				8437A46F1EB85F2600A8D012 /* Main.storyboard in Resources */,
+				8437A4A31EB860D400A8D012 /* Cell1.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8437A4781EB85F2600A8D012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8437A4831EB85F2600A8D012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8437A45D1EB85F2600A8D012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417BEE71EB8728800A7240A /* CalculateCell.m in Sources */,
+				8417BEF11EB899BF00A7240A /* CellHeightCache.m in Sources */,
+				8437A46C1EB85F2600A8D012 /* ViewController.m in Sources */,
+				8437A4691EB85F2600A8D012 /* AppDelegate.m in Sources */,
+				8417BEEB1EB8801E00A7240A /* CalculateModel.m in Sources */,
+				8417BEE31EB8711A00A7240A /* CaluatetableController.m in Sources */,
+				8437A4661EB85F2600A8D012 /* main.m in Sources */,
+				8437A4A21EB860D400A8D012 /* Cell1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8437A4761EB85F2600A8D012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8437A47F1EB85F2600A8D012 /* AnimationCellHeightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8437A4811EB85F2600A8D012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8437A48A1EB85F2600A8D012 /* AnimationCellHeightUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8437A47C1EB85F2600A8D012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8437A4601EB85F2600A8D012 /* AnimationCellHeight */;
+			targetProxy = 8437A47B1EB85F2600A8D012 /* PBXContainerItemProxy */;
+		};
+		8437A4871EB85F2600A8D012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8437A4601EB85F2600A8D012 /* AnimationCellHeight */;
+			targetProxy = 8437A4861EB85F2600A8D012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8437A46D1EB85F2600A8D012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8437A46E1EB85F2600A8D012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8437A4721EB85F2600A8D012 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8437A4731EB85F2600A8D012 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8437A48C1EB85F2600A8D012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8437A48D1EB85F2600A8D012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8437A48F1EB85F2600A8D012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z632QU8CDY;
+				INFOPLIST_FILE = AnimationCellHeight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hengtiansoft.AnimationCellHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8437A4901EB85F2600A8D012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z632QU8CDY;
+				INFOPLIST_FILE = AnimationCellHeight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hengtiansoft.AnimationCellHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8437A4921EB85F2600A8D012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z632QU8CDY;
+				INFOPLIST_FILE = AnimationCellHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hengtiansoft.AnimationCellHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationCellHeight.app/AnimationCellHeight";
+			};
+			name = Debug;
+		};
+		8437A4931EB85F2600A8D012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z632QU8CDY;
+				INFOPLIST_FILE = AnimationCellHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hengtiansoft.AnimationCellHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationCellHeight.app/AnimationCellHeight";
+			};
+			name = Release;
+		};
+		8437A4951EB85F2600A8D012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z632QU8CDY;
+				INFOPLIST_FILE = AnimationCellHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hengtiansoft.AnimationCellHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimationCellHeight;
+			};
+			name = Debug;
+		};
+		8437A4961EB85F2600A8D012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z632QU8CDY;
+				INFOPLIST_FILE = AnimationCellHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hengtiansoft.AnimationCellHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimationCellHeight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8437A45C1EB85F2600A8D012 /* Build configuration list for PBXProject "AnimationCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8437A48C1EB85F2600A8D012 /* Debug */,
+				8437A48D1EB85F2600A8D012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8437A48E1EB85F2600A8D012 /* Build configuration list for PBXNativeTarget "AnimationCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8437A48F1EB85F2600A8D012 /* Debug */,
+				8437A4901EB85F2600A8D012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8437A4911EB85F2600A8D012 /* Build configuration list for PBXNativeTarget "AnimationCellHeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8437A4921EB85F2600A8D012 /* Debug */,
+				8437A4931EB85F2600A8D012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8437A4941EB85F2600A8D012 /* Build configuration list for PBXNativeTarget "AnimationCellHeightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8437A4951EB85F2600A8D012 /* Debug */,
+				8437A4961EB85F2600A8D012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8437A4591EB85F2600A8D012 /* Project object */;
+}
